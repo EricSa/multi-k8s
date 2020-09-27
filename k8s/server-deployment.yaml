@@ -14,8 +14,8 @@ spec:
         spec:
             containers:
                 - name: server
-                  # image: cygnetops/multi-server-pgfix-5-11\
-                  image: esaputra/multi-server
+                  image: cygnetops/multi-server-pgfix-5-11\
+                  # image: esaputra/multi-server
                   ports:
                     - containerPort: 5000
                   env:
