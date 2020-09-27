@@ -14,7 +14,6 @@ spec:
         spec:
             containers:
                 - name: client
-                #   image: esaputra/multi-client
-                  image: stephengrider/multi-client
+                  image: esaputra/multi-client
                   ports:
                     - containerPort: 3000
